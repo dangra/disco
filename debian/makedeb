@@ -8,3 +8,4 @@ fullversion=$(git describe --tags --match '[0-9].[0-9]*')
 debchange -m -D unstable --force-distribution -v $fullversion "Automatic build"
 debuild -us -uc -b
 #git checkout debian/changelog
+
