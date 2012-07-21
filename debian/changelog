@@ -1,24 +1,18 @@
-disco (0.4.1-23-g1b2c42b~oneiric) unstable; urgency=low
-
-  * Automatic build
-
- -- Insophia Team <info@insophia.com>  Fri, 20 Jul 2012 21:12:56 -0300
-
 disco (0.4.1-1) unstable; urgency=low
 
   * Upgrade to 0.4.1
 
- -- Insophia Team <info@insophia.com>  Tue, 29 Oct 2011 17:39:23 -0300
+ -- ScrapingHub Team <info@scrapinghub.com>  Tue, 29 Oct 2011 17:39:23 -0300
 
 disco (0.4.0-2) unstable; urgency=low
 
   * Upgrade to 0.4
 
- -- Insophia Team <info@insophia.com>  Tue, 31 May 2011 17:15:23 +0100
+ -- ScrapingHub Team <info@scrapinghub.com>  Tue, 31 May 2011 17:15:23 +0100
 
 disco (0.3.2-1) unstable; urgency=low
   
   * Initial release
 
- -- Insophia Team <info@insophia.com>  Thu, 31 Mar 2011 12:58:55 -0200
+ -- ScrapingHub Team <info@scrapinghub.com>  Thu, 31 Mar 2011 12:58:55 -0200
 
