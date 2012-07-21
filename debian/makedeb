@@ -4,9 +4,8 @@
 # Do not use timestamps for generating this package version, because it will be
 # built on two different machines, and that will cause the version to differ
 set -e
-codename=$(python -c 'from lsb_release import get_lsb_information as g; print g()["CODENAME"]')
-fullversion=$(git describe --tags --match '[0-9].[0-9]*')
+fullversion=$(git describe --tags --match '[0-9].[0-9]*')~$(lsb_release -cs)
 git checkout debian/changelog
-debchange -m -D unstable --force-distribution -v "$fullversion~$codename" "Automatic build"
+debchange -m -D unstable --force-distribution -v "$fullversion" "Automatic build"
 debuild -us -uc -b
 
